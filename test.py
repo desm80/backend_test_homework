@@ -4,9 +4,9 @@ class Contact:
     is_programmer: bool
 
     def __init__(self,
-                 name: str = 'Denis',
-                 year_birth: int = 1980,
-                 is_programmer: bool = False):
+                 name: str,
+                 year_birth: int,
+                 is_programmer: bool):
         self.name = name
         self.year_birth = year_birth
         self.is_programmer = is_programmer
